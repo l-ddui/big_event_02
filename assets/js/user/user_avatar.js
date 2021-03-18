@@ -56,7 +56,7 @@ $(window).on('load', function () {
                     return layer.msg('res.message')
                 }
                 layer.msg('头像上传成功！')
-                window / parent.getUserInfo()
+                window.parent.getUserInfo()
             }
         })
 
